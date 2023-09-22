@@ -31,7 +31,7 @@ const Page: FunctionComponent<PageProps> = async ({ params: { id } }) => {
   const { post, error } = await getPostById(id);
 
   if (error) {
-    throw new Error(error.message);
+    throw new Error(error.message); 
   }
 
   if (!post) {

@@ -9,7 +9,7 @@ const Comment: FunctionComponent<CommentProps> = () => {
   return (
     <Giscus
       id='comments'
-      repo='munkhjin0223/medium-like'
+      repo='Shaazgai/blog_system'
       repoId='R_kgDOJ2m1Hg'
       category='Announcements'
       categoryId='DIC_kwDOJ2m1Hs4CYov9'

@@ -2,6 +2,7 @@ const removeImports = require('next-remove-imports')();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = removeImports({
+  //serrver action client talaas shuud serveriin vildlvvdiig hiih bolomjtoi.
   experimental: {
     serverActions: true,
   },

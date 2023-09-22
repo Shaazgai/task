@@ -9,6 +9,7 @@ interface AuthorProps {
 }
 
 const Author: FunctionComponent<AuthorProps> = async ({ user, isEditable }) => {
+  //[] be empty condition
   const { posts = [], error } = await getPosts({ where: { userId: user?.id }, take: 10 });
 
   if (error) {
