@@ -10,7 +10,7 @@ interface PageProps {
     searchValue?: string;
   };
 }
-
+//3iig awna  ehnii 3n post
 const POSTS_PER_PAGE = 3;
 
 const Page: FunctionComponent<PageProps> = async ({ searchParams }) => {
@@ -37,7 +37,7 @@ const Page: FunctionComponent<PageProps> = async ({ searchParams }) => {
         },
         {
           description: {
-            contains: searchValue,
+            contains: searchValue, 
             mode: 'insensitive',
           },
         },
