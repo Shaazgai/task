@@ -10,7 +10,7 @@ interface PageProps {
     searchValue?: string;
   };
 }
-//3iig awna  ehnii 3n post
+//3iig awna  ehnii 3n post neg huudsan deer neg baina
 const POSTS_PER_PAGE = 3;
 
 const Page: FunctionComponent<PageProps> = async ({ searchParams }) => {
@@ -71,3 +71,4 @@ const Page: FunctionComponent<PageProps> = async ({ searchParams }) => {
 };  
 
 export default Page;
+ 
