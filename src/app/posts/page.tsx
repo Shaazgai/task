@@ -68,6 +68,6 @@ const Page: FunctionComponent<PageProps> = async ({ searchParams }) => {
       <Pagination totalPages={totalPages} currentPage={page} />
     </div>
   );
-};
+};  
 
 export default Page;
