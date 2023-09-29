@@ -10,7 +10,7 @@ interface SearchFormProps {
 const SearchForm: FunctionComponent<SearchFormProps> = (props) => {
   const [searchValue, setSearchValue] = useState(props.searchValue || '');
   const [finalSearchValue, setFinalSearchValue] = useState(props.searchValue || '');
-
+//hook
   useUpdateSearchParams([{ key: 'searchValue', value: finalSearchValue }]);
 
   const onSearch = (e: any) => {

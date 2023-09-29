@@ -28,6 +28,8 @@ const Page: FunctionComponent<PageProps> = async ({ searchParams }) => {
     skip,
     where: {
       published: true,
+      //or gdeg n title description hesgees n neg vg search hiihed garch irne
+      //contains gdeg n bagtaasan l bwal search hiine. (prisma)
       OR: [
         {
           title: {

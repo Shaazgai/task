@@ -9,16 +9,16 @@ const Comment: FunctionComponent<CommentProps> = () => {
   return (
     <Giscus
       id='comments'
-      repo='Shaazgai/blog_system'
-      repoId='R_kgDOJ2m1Hg'
+      repo='Shaazgai/task'
+      repoId='R_kgDOKW1K6w'
       category='Announcements'
-      categoryId='DIC_kwDOJ2m1Hs4CYov9'
+      categoryId='DIC_kwDOKW1K684CZuSv'
       mapping='pathname'
       term='Welcome to @giscus/react component!'
       reactionsEnabled='1'
       emitMetadata='0'
       inputPosition='top'
-      theme='light'
+      theme='dark'
       lang='en'
       loading='lazy'
     />

@@ -62,6 +62,7 @@ const BlogForm: FunctionComponent<BlogFormProps> = ({ post }) => {
     // ✅ This will be type-safe and validated.
     const finalValues = {
       ...values,
+      //published true bhin bol yg odoonii date-iig awaad published hiisen.
       publishedAt: values.published ? new Date() : null,
       body,
       coverImage,
@@ -81,7 +82,7 @@ const BlogForm: FunctionComponent<BlogFormProps> = ({ post }) => {
       fetch('/api/user/post', {
         method: 'POST',
         body: JSON.stringify(finalValues),
-      })
+      }) 
         .then((res) => res.json())
         .then(({ post, error }) => {
           setInfoMessage('Амжилттай хадгаллаа');

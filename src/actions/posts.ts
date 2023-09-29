@@ -1,4 +1,4 @@
-'use server';
+ 'use server';
 
 import { createPost, updatePost, deletePost } from '@/lib/prisma/posts';
 import { Prisma } from '@prisma/client';
